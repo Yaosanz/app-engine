@@ -14,7 +14,7 @@ Here are the simple steps to deploy your application:
 2. **Initial Project**
    Clone this repository
     ```
-    git clone https://github.com/ForRentIT/API-v1.git
+    git clone https://github.com/syanzzz/testing-app-engine
     ```
     
 4. **Project Configuration**
