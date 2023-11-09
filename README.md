@@ -18,15 +18,15 @@ Here are the simple steps to deploy your application:
     gcloud config set project PROJECT_NAME
 
 
-# 1. Configure App Engine
+## 1. Configure App Engine
 Choose the App Engine environment that suits your application (standard or flexible). Configure the app.yaml file to define the environment and other configurations.
 
-# 2. Deploy Application
+## 2. Deploy Application
 ```
 gcloud app deploy
 ```
 
-## Main feature
+# Main feature
 
 1. Automatic Scalability: App Engine automatically handles increased load by adjusting the number of instances.
 2. Monitoring and Logs: Monitor your application performance via Google Cloud Console and access logs for troubleshooting.
