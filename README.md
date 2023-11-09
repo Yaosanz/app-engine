@@ -1,6 +1,6 @@
 # Pendeployan Aplikasi dengan Google App Engine
 
-![Google App Engine Logo](https://cloud.google.com/appengine/images/appengine-logo.png)
+![Google App Engine Logo]([https://cloud.google.com/appengine/images/appengine-logo.png](https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png))
 
 Selamat datang di panduan pendeployan aplikasi menggunakan Google App Engine di Google Cloud Platform. Dengan menggunakan App Engine, Anda dapat dengan mudah mengelola dan mendeploy aplikasi web Anda tanpa perlu khawatir tentang infrastruktur yang kompleks.
 
@@ -28,6 +28,6 @@ gcloud app deploy
 
 ## Fitur Utama
 - 1. Skalabilitas Otomatis: App Engine secara otomatis menangani peningkatan beban dengan menyesuaikan jumlah instance.
-- 2.Pemantauan dan Log: Pantau kinerja aplikasi Anda melalui Google Cloud Console dan akses log untuk pemecahan masalah.
-- 3.Pembaruan Mudah: Lakukan pembaruan aplikasi dengan mudah menggunakan perintah gcloud app deploy.
+- 2. Pemantauan dan Log: Pantau kinerja aplikasi Anda melalui Google Cloud Console dan akses log untuk pemecahan masalah.
+- 3. Pembaruan Mudah: Lakukan pembaruan aplikasi dengan mudah menggunakan perintah gcloud app deploy.
 
