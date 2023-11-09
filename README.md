@@ -11,9 +11,14 @@ Here are the simple steps to deploy your application:
 1. **Prepare the Development Environment**
     Make sure you have installed [Google Cloud SDK](https://cloud.google.com/sdk) and have authenticated your Google Cloud account.
 
-2. **Project Configuration**
-    Clone this repository and setup your Google Cloud project using the following command:
-
+2. **Initial Project**
+   Clone this repository
+    ```
+    git clone https://github.com/ForRentIT/API-v1.git
+    ```
+    
+4. **Project Configuration**
+    1. Setup your Google Cloud project using the following command:
     ```bash
     gcloud config set project PROJECT_NAME
 
@@ -22,6 +27,7 @@ Here are the simple steps to deploy your application:
 Choose the App Engine environment that suits your application (standard or flexible). Configure the app.yaml file to define the environment and other configurations.
 
 ## 2. Deploy Application
+Use the following command to deploy your application:
 ```
 gcloud app deploy
 ```
