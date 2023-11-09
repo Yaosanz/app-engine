@@ -1,33 +1,33 @@
-# Pendeployan Aplikasi dengan Google App Engine
+<img src="https://avatars2.githubusercontent.com/u/2810941?v=3&s=96" alt="Google Cloud Platform logo" title="Google Cloud Platform" align="right" height="96" width="96"/>
 
-![Google App Engine Logo]([https://cloud.google.com/appengine/images/appengine-logo.png](https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Symbol.png))
+# Google Cloud Platform App Engine Samples [![Slack][slack_badge]][slack_link]
 
-Selamat datang di panduan pendeployan aplikasi menggunakan Google App Engine di Google Cloud Platform. Dengan menggunakan App Engine, Anda dapat dengan mudah mengelola dan mendeploy aplikasi web Anda tanpa perlu khawatir tentang infrastruktur yang kompleks.
+Welcome to the guide to deploying applications using Google App Engine on Google Cloud Platform. By using App Engine, you can easily manage and deploy your web applications without having to worry about complex infrastructure.
 
-## Langkah-langkah Pendeployan
+## Deployment Steps
 
-Berikut adalah langkah-langkah sederhana untuk mendeploy aplikasi Anda:
+Here are the simple steps to deploy your application:
 
-1. **Persiapkan Lingkungan Pengembangan**
-   Pastikan Anda telah menginstal [Google Cloud SDK](https://cloud.google.com/sdk) dan telah mengautentikasi akun Google Cloud Anda.
+1. **Prepare the Development Environment**
+    Make sure you have installed [Google Cloud SDK](https://cloud.google.com/sdk) and have authenticated your Google Cloud account.
 
-2. **Konfigurasi Proyek**
-   Clone repositori ini dan atur proyek Google Cloud Anda dengan menggunakan perintah berikut:
+2. **Project Configuration**
+    Clone this repository and setup your Google Cloud project using the following command:
 
-   ```bash
-   gcloud config set project NAMA_PROYEK
+    ```bash
+    gcloud config set project PROJECT_NAME
 
 
-# 1. Konfigurasi App Engine
-Pilih lingkungan App Engine yang sesuai dengan aplikasi Anda (standard atau flexible). Konfigurasikan file app.yaml untuk menentukan lingkungan dan konfigurasi lainnya.
+# 1. Configure App Engine
+Choose the App Engine environment that suits your application (standard or flexible). Configure the app.yaml file to define the environment and other configurations.
 
-# 2. Deploy Aplikasi
+# 2. Deploy Application
 ```
 gcloud app deploy
 ```
 
-## Fitur Utama
-- 1. Skalabilitas Otomatis: App Engine secara otomatis menangani peningkatan beban dengan menyesuaikan jumlah instance.
-- 2. Pemantauan dan Log: Pantau kinerja aplikasi Anda melalui Google Cloud Console dan akses log untuk pemecahan masalah.
-- 3. Pembaruan Mudah: Lakukan pembaruan aplikasi dengan mudah menggunakan perintah gcloud app deploy.
+## Main feature
 
+1. Automatic Scalability: App Engine automatically handles increased load by adjusting the number of instances.
+2. Monitoring and Logs: Monitor your application performance via Google Cloud Console and access logs for troubleshooting.
+3. Easy Updates: Perform app updates easily using the gcloud app deploy command.
